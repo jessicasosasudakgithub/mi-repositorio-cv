@@ -1,0 +1,41 @@
+footer{
+    
+    border-top: solid 4px orange;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(60deg ,rgb(66, 66, 129),rgb(105, 83, 44) );
+}
+
+/* tamaño de las imaenes del footer */
+footer img{
+    
+    width: 7vw;
+    height: 8vh;
+    border-radius: 100% ;
+    
+}
+.contenedor-menu ul{
+   margin: 3vh auto;
+  
+   display: flex;
+   justify-content:space-around;
+   flex-wrap: wrap;
+   
+   width: 100%;
+
+}
+.contenedor-menu ul li{
+    list-style: none;
+    
+}
+
+.contenedor-texto  h4{
+    color: orange;
+    text-align: center;
+}
+
+footer img:hover{
+    border:2px solid orangered;
+    eti
+}

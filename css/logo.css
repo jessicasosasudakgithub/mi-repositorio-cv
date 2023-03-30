@@ -1,0 +1,15 @@
+.imagen-logo{
+    width: 160px;
+      height: 180px;
+    
+    margin:-5em auto;
+    border: #fff solid 4px;
+  
+    background-image: url(../imagenes/header/logo-principal200.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+   
+  
+}

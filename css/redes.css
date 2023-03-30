@@ -1,0 +1,19 @@
+.contenedor-redes-sociales{
+    width: 30%;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+.contenedor-redes-sociales img{
+    width: 4em;
+    height: 4em;
+    
+}
+
+.contenedor-redes-sociales :hover{
+    
+    border-bottom: solid 2px orange;
+
+}

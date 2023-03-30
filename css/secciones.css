@@ -1,0 +1,83 @@
+
+/* es diferente a las otras secciones por eso está a parte */
+.seccion-introduccion{
+    width:70%;
+    margin: 2em  auto 1em; 
+    border: solid 2px orange;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    color: #925e5e;
+    
+}
+
+/* se utiliza una linea para separar las secciones */
+.linea-separadora hr{
+    
+    border: solid 3px;
+    color:rgb(89, 84, 74);
+    width: 50%;
+    margin:2em auto;
+}
+
+/* colocamos estilos a las diferentes secciones que lo comparten */
+/* .seccion-datos-personales , .seccion-estudios-realizados{
+    margin:auto;   
+    
+    height: 500px;
+    width: 80%; */
+   
+   
+   
+
+/* colocamos estilos a los diferentes títulos que lo comparten */
+.seccion-datos-personales h3, .seccion-estudios-realizados h3, .seccion-idioma h3, .seccion-trabajo-actualmente h3, .seccion-galeria-imagenes h3, .seccion-formulario-contacto h3{
+    margin:2em 2em ;
+    color: orange;
+}
+.seccion-datos-personales li, .seccion-estudios-realizados li, .seccion-idioma li, .seccion-trabajo-actualmente li{
+    margin: 1.5em;
+    list-style: none;
+    color: #925e5e;
+}
+
+/* formato de las imagenes de la galeria */
+.seccion-galeria-imagenes .contenedor-imagenes{
+    background-color: rgba(146, 94, 94, 0.7);
+    width: 90%;
+    height: 450px;
+    margin: 2em auto;
+    border-radius: 2%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    object-fit: cover;
+    align-items: center;
+    row-gap: 20px;
+
+}
+.seccion-galeria-imagenes img{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 20%;
+    border: 2px solid orange;
+    opacity: 80%;
+}
+
+/* formulario */
+.contenedor-formulario{
+    border: 2px solid orange;
+    width: 50%;
+    margin:2em auto;
+    background-color: rgba(150, 49, 49, 0.5);
+
+}
+
+/* animacion galería */
+.seccion-galeria-imagenes a :hover{
+    opacity: 100%;
+    border:3px solid orangered;
+
+
+}
